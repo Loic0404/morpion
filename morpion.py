@@ -9,14 +9,12 @@ dernier_joueur = ""
 dernier_choix = ""
 symbole = "X"
 
-def est_vide(case):
-    if case == "":
-        case += symbole
-        return
-    else: 
-        print("Veuillez choisir une autre case ! ")
-
 while True:
+
+    #AFFICHE GRILLE
+    for element in grille:
+        print(grille[element])
+
     if dernier_joueur == "J1":
         dernier_joueur = "J2"
     else :
@@ -52,5 +50,3 @@ while True:
         print("Veuillez choisis une case correct ! (??)")
 
     tour += 1
-
-    print(grille)
