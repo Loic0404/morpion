@@ -56,7 +56,6 @@ def switch_joueur():
     else :
         return"J1"
 
-
 while True:
 
     #AFFICHE GRILLE
