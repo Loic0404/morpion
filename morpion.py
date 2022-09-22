@@ -17,7 +17,7 @@ message_error = "Veuillez renseigner une case correct ! "
 message_fill = "Cette case est déjà utilisé ! Veuillez en choisir une autre."
 message_play = "{} veuillez choisir une case : "
 
-#
+#FONCTIONS
 
 def afficher_grille():
     for ligne in grille:
